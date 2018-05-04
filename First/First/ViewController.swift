@@ -38,6 +38,7 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var CompanyNameLabel: UILabel!
     
+   
     
     func SetupPage()
     {
@@ -64,8 +65,9 @@ class ViewController: UIViewController {
     @IBAction func AutoButtonAction(_ sender: Any) {
         
     }
-    
-    @IBAction func NonAutoButtonAction(_ sender: Any) {
+    @IBAction func NonButtonAction(_ sender: Any) {
+        
     }
+    
 }
 

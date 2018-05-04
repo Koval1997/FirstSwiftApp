@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD44EF19209C719200BF0596 /* ProductTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD44EF18209C719200BF0596 /* ProductTableViewController.swift */; };
+		BD44EF1B209C756A00BF0596 /* SelectedProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD44EF1A209C756A00BF0596 /* SelectedProductViewController.swift */; };
 		BD5FF6BA2091A77D00FC5218 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5FF6B92091A77D00FC5218 /* AppDelegate.swift */; };
 		BD5FF6BC2091A77D00FC5218 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5FF6BB2091A77D00FC5218 /* ViewController.swift */; };
 		BD5FF6BF2091A77D00FC5218 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD5FF6BD2091A77D00FC5218 /* Main.storyboard */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BD44EF18209C719200BF0596 /* ProductTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTableViewController.swift; sourceTree = "<group>"; };
+		BD44EF1A209C756A00BF0596 /* SelectedProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedProductViewController.swift; sourceTree = "<group>"; };
 		BD5FF6B62091A77D00FC5218 /* First.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = First.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD5FF6B92091A77D00FC5218 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BD5FF6BB2091A77D00FC5218 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -61,6 +65,8 @@
 				BD5FF6CE2091B4F700FC5218 /* Resources */,
 				BD5FF6B92091A77D00FC5218 /* AppDelegate.swift */,
 				BD5FF6BB2091A77D00FC5218 /* ViewController.swift */,
+				BD44EF1A209C756A00BF0596 /* SelectedProductViewController.swift */,
+				BD44EF18209C719200BF0596 /* ProductTableViewController.swift */,
 				BD5FF6BD2091A77D00FC5218 /* Main.storyboard */,
 				BD5FF6C32091A77E00FC5218 /* Assets.xcassets */,
 				BD5FF6C52091A77E00FC5218 /* LaunchScreen.storyboard */,
@@ -160,6 +166,8 @@
 			files = (
 				BD5FF6C22091A77E00FC5218 /* First.xcdatamodeld in Sources */,
 				BD5FF6BC2091A77D00FC5218 /* ViewController.swift in Sources */,
+				BD44EF1B209C756A00BF0596 /* SelectedProductViewController.swift in Sources */,
+				BD44EF19209C719200BF0596 /* ProductTableViewController.swift in Sources */,
 				BD5FF6BA2091A77D00FC5218 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
