@@ -9,47 +9,13 @@
 import Foundation
 import Alamofire
 
-class JsonRequest: NSObject {
+class JsonParser : NSObject{
     
-    
-    func getCars(completion: @escaping ([Car]) -> Void) {
-        
-        let request = Alamofire.request("http://139.59.139.197:8001/maxk/cars")
-        request.responseJSON { (response) in
-            guard let json = response.result.value as? [String: Any] else {
-                completion([])
-                return
-            }
+     public static func getCars() {
+        request("https://api.myjson.com/bins/jkp26").responseJSON { responseJSON in
             
-            guard let success = json["success"] as? Bool else {
-                completion([])
-                return
-            }
-            
-            guard success else {
-                completion([])
-                return
-            }
-            
-            guard let data = json["data"] as? [[String: Any]] else {
-                completion([])
-                return
-            }
-            
-            var cars: [Car] = []
-            
-            for item in data {
-                guard let car = Car.parse(json: item) else {
-                    continue
-                }
-                
-                cars.append(car)
-            }
-            
-            completion(cars)
-            print(cars)
+            let value = responseJSON.result.value
+            print(value ?? 0)
         }
-        
     }
-    
 }
