@@ -19,10 +19,9 @@
 		BD5FF6C42091A77E00FC5218 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD5FF6C32091A77E00FC5218 /* Assets.xcassets */; };
 		BD5FF6C72091A77E00FC5218 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD5FF6C52091A77E00FC5218 /* LaunchScreen.storyboard */; };
 		BD5FF6D12091B66A00FC5218 /* 20367490.png in Resources */ = {isa = PBXBuildFile; fileRef = BD5FF6D02091B66A00FC5218 /* 20367490.png */; };
-		BD7DAEFD20BFECB7003DE7F4 /* JsonRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7DAEFC20BFECB7003DE7F4 /* JsonRequest.swift */; };
 		BD91400B20BE5B0F0013CC66 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD91400A20BE5B0F0013CC66 /* UserModel.swift */; };
-		BD91400F20BE5CAC0013CC66 /* UserController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD91400E20BE5CAC0013CC66 /* UserController.swift */; };
 		BD91401120BE898C0013CC66 /* SelectedCarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD91401020BE898C0013CC66 /* SelectedCarViewController.swift */; };
+		BDC16C0020C156FD00D2031A /* UserController 03-26-01-936.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC16BFF20C156FD00D2031A /* UserController 03-26-01-936.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,10 +39,9 @@
 		BD5FF6C62091A77E00FC5218 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BD5FF6C82091A77E00FC5218 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD5FF6D02091B66A00FC5218 /* 20367490.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 20367490.png; path = First/Assets.xcassets/20367490.imageset/20367490.png; sourceTree = SOURCE_ROOT; };
-		BD7DAEFC20BFECB7003DE7F4 /* JsonRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonRequest.swift; sourceTree = "<group>"; };
 		BD91400A20BE5B0F0013CC66 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UserModel.swift; path = /Users/user138725/Desktop/First/First/UserModel.swift; sourceTree = "<absolute>"; };
-		BD91400E20BE5CAC0013CC66 /* UserController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UserController.swift; path = /Users/user138725/Desktop/First/First/UserController.swift; sourceTree = "<absolute>"; };
 		BD91401020BE898C0013CC66 /* SelectedCarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedCarViewController.swift; sourceTree = "<group>"; };
+		BDC16BFF20C156FD00D2031A /* UserController 03-26-01-936.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UserController 03-26-01-936.swift"; path = "../../../.Trash/UserController 03-26-01-936.swift"; sourceTree = "<group>"; };
 		D79EBC785814C37198358E01 /* Pods-First.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-First.debug.xcconfig"; path = "Pods/Target Support Files/Pods-First/Pods-First.debug.xcconfig"; sourceTree = "<group>"; };
 		FFFD60FECCBBF79AA8D7C512 /* Pods-First.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-First.release.xcconfig"; path = "Pods/Target Support Files/Pods-First/Pods-First.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -93,7 +91,7 @@
 				BD5FF6CE2091B4F700FC5218 /* Resources */,
 				BD5FF6B92091A77D00FC5218 /* AppDelegate.swift */,
 				BD91400A20BE5B0F0013CC66 /* UserModel.swift */,
-				BD91400E20BE5CAC0013CC66 /* UserController.swift */,
+				BDC16BFF20C156FD00D2031A /* UserController 03-26-01-936.swift */,
 				BD5FF6BB2091A77D00FC5218 /* ViewController.swift */,
 				BD5FF6BD2091A77D00FC5218 /* Main.storyboard */,
 				BD591CCC20BDE57C004DA673 /* RegQuestionViewController.swift */,
@@ -104,7 +102,6 @@
 				BD5FF6C02091A77E00FC5218 /* First.xcdatamodeld */,
 				BD591CCA20BDD196004DA673 /* TableViewCell.swift */,
 				BD91401020BE898C0013CC66 /* SelectedCarViewController.swift */,
-				BD7DAEFC20BFECB7003DE7F4 /* JsonRequest.swift */,
 			);
 			path = First;
 			sourceTree = "<group>";
@@ -256,12 +253,11 @@
 			files = (
 				BD591CCB20BDD196004DA673 /* TableViewCell.swift in Sources */,
 				BD91400B20BE5B0F0013CC66 /* UserModel.swift in Sources */,
-				BD91400F20BE5CAC0013CC66 /* UserController.swift in Sources */,
 				BD5FF6C22091A77E00FC5218 /* First.xcdatamodeld in Sources */,
 				BD5FF6BC2091A77D00FC5218 /* ViewController.swift in Sources */,
 				BD591CCD20BDE57C004DA673 /* RegQuestionViewController.swift in Sources */,
 				BD591CC920BDC8FF004DA673 /* CarTableViewController.swift in Sources */,
-				BD7DAEFD20BFECB7003DE7F4 /* JsonRequest.swift in Sources */,
+				BDC16C0020C156FD00D2031A /* UserController 03-26-01-936.swift in Sources */,
 				BD5FF6BA2091A77D00FC5218 /* AppDelegate.swift in Sources */,
 				BD91401120BE898C0013CC66 /* SelectedCarViewController.swift in Sources */,
 			);
