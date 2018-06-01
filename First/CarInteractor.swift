@@ -14,7 +14,7 @@ class CarInteractor: NSObject
     
     func getCars() -> [Car] {
         var cars = [Car]()
-        let request = Alamofire.request("https://api.myjson.com/bins/f76ja")
+        let request = Alamofire.request("http://api.kovalmax06.netobject.sandbox/site/get")
         request.responseJSON { (response) in
             do {
                 let decoder = JSONDecoder()
